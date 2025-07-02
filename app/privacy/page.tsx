@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowLeft } from "lucide-react"
+import Image from "next/image"
 
 export default function PrivacyPage() {
   return (
@@ -9,9 +10,15 @@ export default function PrivacyPage() {
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-6">
           <nav className="flex items-center justify-between">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-orange-400 to-pink-400 rounded-full flex items-center justify-center text-white font-bold">
-                ا
+            <Link href="/" className="flex items-center space-x-3">
+              <div className="w-12 h-12 relative">
+                <Image
+                  src="/logo.png"
+                  alt="Alif Ujaala Logo"
+                  width={48}
+                  height={48}
+                  className="rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <span className="text-xl font-bold text-gray-800">Alif Ujaala</span>
             </Link>
@@ -130,8 +137,8 @@ export default function PrivacyPage() {
       <footer className="bg-white border-t">
         <div className="container mx-auto px-4 py-8 text-center">
           <div className="flex items-center justify-center space-x-2 mb-4">
-            <div className="w-6 h-6 bg-gradient-to-r from-orange-400 to-pink-400 rounded-full flex items-center justify-center text-white font-bold text-sm">
-              ا
+            <div className="w-8 h-8 relative">
+              <Image src="/logo.png" alt="Alif Ujaala Logo" width={32} height={32} className="rounded-full shadow-lg" />
             </div>
             <span className="text-lg font-bold text-gray-800">Alif Ujaala</span>
           </div>

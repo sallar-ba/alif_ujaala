@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Play, Pencil, Star, Mail, Heart, Sparkles } from "lucide-react"
+import Image from "next/image"
 
 export default function HomePage() {
   return (
@@ -19,8 +20,14 @@ export default function HomePage() {
       <header className="relative z-10 container mx-auto px-4 py-6">
         <nav className="flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-12 h-12 bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 rounded-full flex items-center justify-center text-white font-bold text-2xl shadow-lg animate-pulse">
-              ا
+            <div className="w-16 h-16 relative">
+              <Image
+                src="/logo.png"
+                alt="Alif Ujaala Logo"
+                width={64}
+                height={64}
+                className="rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
+              />
             </div>
             <h1 className="text-3xl font-black text-gray-800 bg-gradient-to-r from-orange-500 to-pink-500 bg-clip-text text-transparent">
               Alif Ujaala
@@ -213,8 +220,14 @@ export default function HomePage() {
       <footer className="relative z-10 container mx-auto px-4 py-16 text-center">
         <div className="max-w-3xl mx-auto bg-white/80 backdrop-blur-sm rounded-3xl p-10 shadow-2xl border-4 border-dashed border-purple-300">
           <div className="flex items-center justify-center space-x-3 mb-8">
-            <div className="w-12 h-12 bg-gradient-to-r from-orange-400 via-pink-400 to-purple-400 rounded-full flex items-center justify-center text-white font-bold text-xl animate-spin">
-              ا
+            <div className="w-16 h-16 relative">
+              <Image
+                src="/logo.png"
+                alt="Alif Ujaala Logo"
+                width={64}
+                height={64}
+                className="rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
+              />
             </div>
             <span className="text-3xl font-black bg-gradient-to-r from-orange-500 to-purple-500 bg-clip-text text-transparent">
               Alif Ujaala
