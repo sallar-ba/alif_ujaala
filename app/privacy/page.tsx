@@ -160,14 +160,32 @@ export default function PrivacyPage() {
                 <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
                   7
                 </span>
-                Permissions
+                App Permissions
               </h2>
-              <p className="text-gray-700">
-                The App does not request or require any specific permissions (e.g., access to storage, camera, or
-                microphone) to function. An internet connection is required to stream videos from YouTube in the video
-                section, but the App does not explicitly request internet permission as it assumes users have an active
-                Wi-Fi or data connection.
+              <p className="text-gray-700 mb-4">
+                To ensure the proper functionality of the App, the following permissions are requested on your device.
+                We only request permissions that are absolutely necessary for the App's core features:
               </p>
+              <ul className="list-disc pl-5 space-y-2 text-gray-700">
+                <li>
+                  <strong>INTERNET & ACCESS_NETWORK_STATE:</strong> These permissions are required to stream educational
+                  story videos from YouTube, verify in-app purchases, and transmit tracing data to our secure processing
+                  model for feedback.
+                </li>
+                <li>
+                  <strong>BILLING:</strong> This permission is required by Google Play to securely process in-app
+                  purchases for unlocking additional alphabet content.
+                </li>
+                <li>
+                  <strong>CHECK_LICENSE:</strong> This permission is used to verify that the App was legitimately
+                  downloaded from the Google Play Store, helping to prevent piracy.
+                </li>
+                <li>
+                  <strong>POST_NOTIFICATIONS:</strong> This permission may be requested to send important updates or
+                  learning reminders. You can choose to allow or deny this permission in your device settings without
+                  affecting the core functionality of the App.
+                </li>
+              </ul>
             </section>
 
             <section className="mb-8">
