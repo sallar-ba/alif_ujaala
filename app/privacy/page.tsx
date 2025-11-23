@@ -42,110 +42,199 @@ export default function PrivacyPage() {
               <strong>Last Updated:</strong> July 3, 2025
             </p>
 
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              This Privacy Policy explains how "Alif Ujaala" (the "App"), developed by an individual developer ("we,"
-              "us," or "our"), handles information in connection with your use of the App. Alif Ujaala is an educational
-              app designed for children aged 1-7 to learn Urdu through tracing patterns, Urdu alphabets, and watching
-              alphabet-related story videos. We are committed to protecting your privacy, especially as our App is
-              intended for young children.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  1
+                </span>
+                Information We Collect
+              </h2>
+              <p className="text-gray-700">
+                We do not collect any personal information from users of the App. Personal information includes data
+                such as names, email addresses, phone numbers, or other identifiable information. The App is designed to
+                function without requiring or collecting any such data.
+              </p>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">
-              1. Information We Collect
-            </h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              We do not collect any personal information from users of the App. Personal information includes data such
-              as names, email addresses, phone numbers, or other identifiable information. The App is designed to
-              function without requiring or collecting any such data.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  2
+                </span>
+                Non-Personal Information
+              </h2>
+              <p className="text-gray-700">
+                The App does not collect or store general usage data on our servers, except for the specific data points
+                mentioned in this policy (User-Generated Content and Device Identifiers). However, certain features,
+                such as the video section, may require an internet connection to stream content from YouTube.
+              </p>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">
-              2. Non-Personal Information
-            </h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              The App does not collect or store any non-personal information (e.g., usage data or device information) on
-              our servers. However, certain features, such as the video section, may require an internet connection to
-              stream content from YouTube, as described below.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  3
+                </span>
+                Data Collection and Processing
+              </h2>
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold text-gray-800">User-Generated Content (Tracing Data)</h3>
+                <p className="text-gray-700">
+                  To provide feedback on your child's learning progress, the App collects and processes user-generated
+                  content in the form of traced images. When a user traces an alphabet or pattern:
+                </p>
+                <ul className="list-disc pl-5 space-y-2 text-gray-700">
+                  <li>
+                    The traced image data is temporarily transmitted to our processing model (a secure third-party
+                    service).
+                  </li>
+                  <li>
+                    The model analyzes the tracing to identify the Urdu letter or pattern and provides immediate
+                    feedback to the user.
+                  </li>
+                  <li>
+                    This data is used solely for <strong>App Functionality</strong> purposes.
+                  </li>
+                </ul>
+                <p className="text-gray-700">
+                  This process falls under the "Other user-generated content" category. We do not use this data for any
+                  other purpose, and it is not linked to any personal user identity.
+                </p>
+              </div>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">
-              3. Third-Party Content (YouTube Videos)
-            </h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              The App includes a video section that streams alphabet-related story videos directly from YouTube. These
-              videos are embedded within the App and are subject to YouTube's own privacy policies and data collection
-              practices, which are beyond our control. YouTube may collect data such as device information, IP
-              addresses, or viewing activity when you access these videos. We encourage parents or guardians to review
-              YouTube's Privacy Policy (available at{" "}
-              <a
-                href="https://www.youtube.com/yt/about/policies/"
-                className="text-orange-500 hover:underline break-all"
-              >
-                https://www.youtube.com/yt/about/policies/
-              </a>
-              ) to understand how YouTube handles data.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  4
+                </span>
+                Device Identifiers
+              </h2>
+              <p className="text-gray-700">
+                The App collects specific device information, including Device IDs or other identifiers. This data is
+                collected solely for <strong>App Functionality</strong> and <strong>Security</strong> purposes to ensure
+                the proper operation of the App. We do not use these identifiers for advertising, marketing, or tracking
+                users across other apps or websites.
+              </p>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">
-              4. Local Data Storage
-            </h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              The App does not store any data locally on your device, including user progress, settings, or cached
-              videos. All functionality, such as tracing patterns or accessing videos, operates without saving data on
-              your device.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  5
+                </span>
+                Third-Party Content (YouTube Videos)
+              </h2>
+              <p className="text-gray-700">
+                The App includes a video section that streams alphabet-related story videos directly from YouTube. These
+                videos are embedded within the App and are subject to YouTube's own privacy policies and data collection
+                practices, which are beyond our control. YouTube may collect data such as device information, IP
+                addresses, or viewing activity when you access these videos. We encourage parents or guardians to review
+                YouTube's Privacy Policy (available at{" "}
+                <a
+                  href="https://www.youtube.com/yt/about/policies/"
+                  className="text-orange-500 hover:underline break-all"
+                >
+                  https://www.youtube.com/yt/about/policies/
+                </a>
+                ) to understand how YouTube handles data.
+              </p>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">5. Permissions</h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              The App does not request or require any specific permissions (e.g., access to storage, camera, or
-              microphone) to function. An internet connection is required to stream videos from YouTube in the video
-              section, but the App does not explicitly request internet permission as it assumes users have an active
-              Wi-Fi or data connection.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  6
+                </span>
+                Local Data Storage
+              </h2>
+              <p className="text-gray-700">
+                The App does not store any data locally on your device, including user progress, settings, or cached
+                videos. All functionality, such as tracing patterns or accessing videos, operates without saving data on
+                your device.
+              </p>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">
-              6. Children's Privacy
-            </h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              Alif Ujaala is designed for children aged 1-7, and we take children's privacy seriously. We comply with
-              applicable laws, including the Children's Online Privacy Protection Act (COPPA) in the United States and
-              the General Data Protection Regulation (GDPR) for children in the European Union. Since we do not collect
-              any personal information, no parental consent is required for use of the App. The App is a single-user
-              experience with no social features or advertisements that could impact children's privacy.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  7
+                </span>
+                Permissions
+              </h2>
+              <p className="text-gray-700">
+                The App does not request or require any specific permissions (e.g., access to storage, camera, or
+                microphone) to function. An internet connection is required to stream videos from YouTube in the video
+                section, but the App does not explicitly request internet permission as it assumes users have an active
+                Wi-Fi or data connection.
+              </p>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">
-              7. In-App Purchases
-            </h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              The App offers in-app purchases that allow users to unlock additional Urdu alphabet tracing activities.
-              Certain alphabets (e.g., "Alif" and "Bey") are available for free, while others (e.g., "Pey") are locked
-              and require a one-time payment to access. Each paid alphabet has the same purchase price. All in-app
-              purchases are processed securely through Google Play's payment system, and we do not collect or store any
-              payment-related information, such as credit card details or billing information. Parents or guardians are
-              encouraged to review and manage in-app purchase settings on their devices to prevent unauthorized
-              purchases.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  8
+                </span>
+                Children's Privacy
+              </h2>
+              <p className="text-gray-700">
+                Alif Ujaala is designed for children aged 1-7, and we take children's privacy seriously. We comply with
+                applicable laws, including the Children's Online Privacy Protection Act (COPPA) in the United States and
+                the General Data Protection Regulation (GDPR) for children in the European Union. Since we do not
+                collect any personal information, no parental consent is required for use of the App. The App is a
+                single-user experience with no social features or advertisements that could impact children's privacy.
+              </p>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">
-              8. Changes to This Privacy Policy
-            </h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              We may update this Privacy Policy at our discretion to reflect changes in the App or legal requirements.
-              Any updates will be posted within the App or on this page. We encourage you to review this Privacy Policy
-              periodically for any changes.
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  9
+                </span>
+                In-App Purchases
+              </h2>
+              <p className="text-gray-700">
+                The App offers in-app purchases that allow users to unlock additional Urdu alphabet tracing activities.
+                Certain alphabets (e.g., "Alif" and "Bey") are available for free, while others (e.g., "Pey") are locked
+                and require a one-time payment to access. Each paid alphabet has the same purchase price. All in-app
+                purchases are processed securely through Google Play's payment system, and we do not collect or store
+                any payment-related information, such as credit card details or billing information. Parents or
+                guardians are encouraged to review and manage in-app purchase settings on their devices to prevent
+                unauthorized purchases.
+              </p>
+            </section>
 
-            <h2 className="text-xl md:text-2xl font-bold text-gray-800 mt-6 md:mt-8 mb-3 md:mb-4">9. Contact Us</h2>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              If you have any questions or concerns about this Privacy Policy or the App, please contact us at:
-            </p>
-            <p className="mb-4 md:mb-6 leading-relaxed">
-              <strong>Email:</strong>{" "}
-              <a href="mailto:msallar.ba@gmail.com" className="text-orange-500 hover:underline break-all">
-                msallar.ba@gmail.com
-              </a>
-            </p>
+            <section className="mb-8">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  10
+                </span>
+                Changes to This Privacy Policy
+              </h2>
+              <p className="text-gray-700">
+                We may update this Privacy Policy at our discretion to reflect changes in the App or legal requirements.
+                Any updates will be posted within the App or on this page. We encourage you to review this Privacy
+                Policy periodically for any changes.
+              </p>
+            </section>
+
+            <section className="bg-orange-50 rounded-2xl p-6 border border-orange-100">
+              <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center gap-2">
+                <span className="bg-orange-100 text-orange-600 w-8 h-8 rounded-full flex items-center justify-center text-sm">
+                  11
+                </span>
+                Contact Us
+              </h2>
+              <p className="text-gray-700">
+                If you have any questions or concerns about this Privacy Policy or the App, please contact us at:
+              </p>
+              <p className="text-gray-700">
+                <strong>Email:</strong>{" "}
+                <a href="mailto:msallar.ba@gmail.com" className="text-orange-500 hover:underline break-all">
+                  msallar.ba@gmail.com
+                </a>
+              </p>
+            </section>
           </div>
         </div>
       </main>
